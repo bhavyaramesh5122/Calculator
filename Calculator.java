@@ -18,9 +18,24 @@ public class Calculator {
         z=x-y;
         return z;
     }
+    public int Multiply(){
+        System.out.println("Enter two number to perform perform Multiplication");
+        x=scan.nextInt();
+        y=scan.nextInt();
+        z=x*y;
+        return z;
+    }
+    public int Divide(){
+        System.out.println("Enter two numbers to perform Division");
+        x=scan.nextInt();
+        y=scan.nextInt();
+        return z;
+    }
     public static void main(String[] args) {
         Calculator c= new Calculator();
         System.out.println(c.add());
         System.out.println(c.subtract());
+        System.out.println(c.Multiply());
+        System.out.println(c.Divide());
     }
 }
