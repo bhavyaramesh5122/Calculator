@@ -29,6 +29,7 @@ public class Calculator {
         System.out.println("Enter two numbers to perform Division");
         x=scan.nextInt();
         y=scan.nextInt();
+        z=x/y;
         return z;
     }
     public static void main(String[] args) {
